@@ -18,26 +18,21 @@ ul{
     font-weight: bold;
     font-size: large;
     color: rgb(116, 22, 22);
-
 }
+
 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;}
-
-    @keyframes example {
-        from {background-color: red;}
-        to {background-color: yellow;}
-        
-    }
-
-    h1 {
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        animation-name: example;
-        animation-duration: 4s;
-
-
-    }
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height:500px;
+    border: black 5px solid;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    text-decoration: wavy;
+    color: yellow;
+    background-color: black;
+    a;
+}
